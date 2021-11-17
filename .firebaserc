@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "concours-vote"
+  },
+  "targets": {
+    "concours-vote": {
+      "hosting": {
+        "concoursVote": [
+          "concours-vote"
+        ]
+      }
+    }
   }
 }

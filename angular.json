@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "concoursVote:build:production",
+            "firebaseProject": "concours-vote",
+            "firebaseHostingSite": "concours-vote"
+          }
         }
       }
     }
